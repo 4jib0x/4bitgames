@@ -1,6 +1,7 @@
 # 4bitgames - Game Store UI Clone
 
 ### 🚀 **[Click here for the Live Demo](https://abdou-agiba.github.io/4bitgames/ )**
+> **Note:** The only fully functional game page in the live demo is the **Valorant** page.
 
 ---
 
