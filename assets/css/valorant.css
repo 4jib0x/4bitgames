@@ -1,0 +1,73 @@
+body { background-color: #121212; color: #ffffff; font-family: Helvetica, Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+.main-header { background-color: #121212; padding: 10px 40px; border-bottom: 1px solid #2a2a2a; }
+.main-nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+.nav-left, .nav-center, .nav-right { display: flex; align-items: center; }
+.nav-left { gap: 25px; }
+.logo-placeholder { height: 45px; width: auto; border-radius: 3px; flex-shrink: 0; }
+.nav-links, .nav-links-center { list-style: none; padding: 0; margin: 0; display: flex; gap: 25px; }
+.nav-links a, .nav-links-center a { color: #bdbdbd; text-decoration: none; font-size: 16px; font-weight: bold; white-space: nowrap; }
+.nav-links a:hover, .nav-links-center a:hover { color: #ffffff; }
+.search-container { background-color: #202020; border-radius: 20px; padding: 6px 15px; display: flex; align-items: center; width: 250px; }
+.search-input { background: none; border: none; color: #ffffff; outline: none; width: 100%; font-size: 14px; }
+.nav-right { gap: 20px; }
+.avatar-placeholder { height: 35px; width: 35px; padding: 4px; background-color: #eeeeee; border-radius: 50%; }
+.download-button, .signin-button { background-color: #007bff; color: #ffffff; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 14px; font-weight: bold; white-space: nowrap; }
+.download-button:hover, .signin-button:hover { background-color: #0056b3; }
+
+.valorant-hero { display: grid; grid-template-columns: 1fr 320px; gap: 20px; padding: 20px 40px; }
+.hero-background { background: #202020; border-radius: 10px; overflow: hidden; }
+.hero-bg-image { width: 100%; height: auto; display: block; }
+.hero-sidebar { background: #1b1b1b; border: 1px solid #2a2a2a; border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
+.game-logo { width: 100%; height: auto; border-radius: 6px; background:#000; }
+.base-game-tag { font-size: 12px; color: #aaa; }
+.game-price-valorant { font-weight: bold; }
+.get-button, .cart-button, .wishlist-button-valorant { background: #2a2a2a; color: #fff; border: 1px solid #3a3a3a; border-radius: 6px; padding: 10px; cursor: pointer; }
+.get-button { background:#007bff; border-color:#007bff; }
+
+.game-details-sidebar p { display:flex; justify-content: space-between; gap: 10px; font-size: 13px; color:#ccc; }
+.sidebar-actions { display:flex; gap: 10px; }
+
+.valorant-media-gallery { padding: 10px 40px; }
+.gallery-container { display:flex; align-items: center; gap: 10px; overflow-x:auto; }
+.gallery-thumbnail { height: 90px; border-radius: 6px; }
+.prev-button, .next-button { background:#2a2a2a; color:#fff; border:1px solid #3a3a3a; border-radius: 50%; width:36px; height:36px; }
+
+.valorant-description-ratings { display:grid; grid-template-columns: 1fr 300px; gap: 30px; padding: 20px 40px; }
+.description-content { color:#ddd; }
+.tags { display:flex; gap:8px; margin:10px 0; }
+.genre-tag, .feature-tag { background:#2a2a2a; border:1px solid #3a3a3a; border-radius: 12px; padding: 3px 8px; font-size: 12px; }
+.ratings-content { background:#1b1b1b; border:1px solid #2a2a2a; border-radius:10px; padding: 15px; }
+.rating-stars { font-size: 18px; }
+
+.valorant-sys-req { padding: 20px 40px; }
+.requirements-tabs { display:flex; gap: 8px; margin-bottom: 10px; }
+.tab-button { background:#2a2a2a; border:1px solid #3a3a3a; color:#fff; border-radius: 6px; padding: 6px 10px; }
+.requirements-details { display:grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
+.req-column { background:#1b1b1b; border:1px solid #2a2a2a; border-radius: 10px; padding: 15px; }
+.req-column h3 { margin-top:0; }
+.languages-supported { color:#bbb; margin-top: 10px; }
+.legal-footer { display:flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+
+.main-footer { background-color: #121212; color: #aaaaaa; padding: 40px 40px 20px 40px; margin-top: 40px; border-top: 1px solid #2a2a2a; }
+.footer-top-section { display:flex; flex-direction: column; gap: 20px; }
+.footer-logos { display:flex; gap: 20px; align-items:center; }
+.footer-links-grid { display:grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 20px; }
+.footer-column h4 { color:#fff; font-size: 14px; margin:0 0 10px 0; }
+.footer-column ul { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap: 8px; }
+.footer-column a { color:#aaa; text-decoration:none; font-size: 13px; }
+.footer-column a:hover { color:#fff; }
+.esrb-logo { max-width: 200px; }
+.footer-bottom-section { display:flex; justify-content: space-between; align-items: center; gap: 20px; margin-top: 20px; }
+.footer-social-links img { height: 25px; opacity:.7; }
+.back-to-top { color:#aaa; text-decoration:none; font-size: 20px; }
+
+@media (max-width: 992px) {
+	.valorant-hero { grid-template-columns: 1fr; }
+	.valorant-description-ratings { grid-template-columns: 1fr; }
+	.footer-links-grid { grid-template-columns: repeat(2, minmax(150px, 1fr)); }
+}
+@media (max-width: 480px) {
+	.footer-links-grid { grid-template-columns: 1fr; }
+}
+
