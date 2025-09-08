@@ -8,12 +8,12 @@
 ## 🖼️ Project Gallery
 
 <p align="center">
-  <img src="assets/md/4bit_main_page.png" alt="Main Page Screenshot" width="700"/>
+  <img src="assets/md/4bit_main_page.png" alt="Main Page Screenshot" width="600"/>
     
 <em>The Main Store Page</em>
 </p>
 <p align="center">
-  <img src="assets/md/valo_page.png" alt="Valorant Page Screenshot" width="700"/>
+  <img src="assets/md/valo_page.png" alt="Valorant Page Screenshot" width="600"/>
     
 <em>Valorant Game Page with Interactive Gallery</em>
 </p>
